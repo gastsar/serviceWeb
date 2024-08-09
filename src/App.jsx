@@ -1,10 +1,11 @@
+import Navbar from "./component/Navbar/Navbar";
+
 function App() {
   return (
     <>
-      <div>
-        <h1>Vite + React</h1>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      </div>
+      <main className="overflow-x-hidden bg-white text-dark relative">
+        <Navbar />
+      </main>
     </>
   );
 }
